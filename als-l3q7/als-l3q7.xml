@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestiones in libros De anima</title>
+        <author>Albertus de Saxonia</author>
+        <editor>Michael StenskjÃ¦r Christensen</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2016.01">
+          <title><!-- title [{ms-identifier} Transcription] --></title>
+          <date when="2016-01-22">January 22, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Michael</publisher>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-01-22">January 22, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">Leipzig, UniversitÃ¤tsbibliothek 1416</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2016-01-08" who="#" status="draft" n="2016.01">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <!-- I might want to make my own versions of these files 
+        <xi:include href="/Users/michael/Documents/PhD/transcriptions/tools/lists/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="/Users/michael/Documents/PhD/transcriptions/tools/lists/prosopography.xml" xpointer="prosopography"></xi:include>
+        -->
+      </div>
+    </front>
+    <body>
+      <div xml:id="als-l3d7">
+        <head><supplied>Quaestio 7</supplied></head>
+        <p>
+          <lb ed="#L"/>Utrum intellectus humanus possit seipsum
+          <lb ed="#L"/>intelligere et arguitur quod non, nam sicut se habet
+          <lb ed="#L"/>sensus ad sensibilia, ita intellectus ad
+          <lb ed="#L"/>intelligibilia, sed sensus non potest se sentire
+          <lb ed="#L"/>nec congnoscere, ut maxime patet de sensu ex
+          <lb break="no" ed="#L"/>teriori. Ad hoc secundum <name ref="#Aristotle">Philosophum</name>, nam sensus
+          <lb ed="#L"/>exterior, cum sit virtus corporalis extensa
+          <lb ed="#L"/>non habet reflexionem supra se, nec supra suam
+          <lb ed="#L"/>operationem, scilicet cogitando suam operationem, et ideo sensus
+          <lb ed="#L"/>exterior non percipit se sentire, ut sequitur?
+          <lb ed="#L"/>visus exterior non percipit se videre et ita
+          <lb ed="#L"/>de aliis. Ergo sequitur quod et cetera. Ita erit de intellectu, scilicet quod posset intelligere se, igitur et cetera.
+        </p>
+        <p>
+          <lb ed="#L"/>Secundo sic arguitur: Nam si intellectus
+          <lb ed="#L"/>intelligeret seipsum, sequeretur quod idem
+          <lb ed="#L"/>ageret in se ipsum et patitur a se ipso.
+          <lb ed="#L"/>Consequens est falsum, quod patet, et primo quia dicitur principio
+          <lb ed="#L"/><title ref="#Arist.Ph">Physicorum</title> quod omne quod movetur, movetur
+          <lb ed="#L"/>ab aliquo, et per consequens etiam omne quod patitur,
+          <lb ed="#L"/>patitur ab alio. Item quinto et nono
+          <lb ed="#L"/><title ref="Arist.Metaph">Metaphysicae</title> <name ref="#Aristotle">Philosophus</name> describens potentiam
+          <lb ed="#L"/>passivam: De potentia passiva est prin
+          <lb ed="#L" break="no"/>cipium transmutandi ab altero et cetera.
+          <lb ed="#L"/>Item agens agit secundum quod in actu,
+          <lb ed="#L"/>et patiens patitur secundum quod in potentia.
+          <lb ed="#L"/>Immo non stat quod idem respectu e <unclear>converso</unclear>
+          <lb ed="#L"/>sit simul in actu et potentia, quia ac
+          <lb ed="#L" break="no"/>tus et potentia sunt divisione directe val
+          <lb ed="#L" break="no"/>de oppositae, ut haec et in prohemio
+          <lb ed="#L"/>huius.<note>That might be ref. to his own introduction to book 1.</note> Ergo non videtur stare quod idem
+          <lb ed="#L"/>agit in seipsum et patiatur a seipso
+          <lb ed="#L"/>et consequentia tamen patet quia si intellectus
+          <pb n="233r"/><cb n="a"/>
+          <lb ed="#L"/>intelligeret se, tunc etiam ageret in
+          <lb ed="#L"/>se et pateretur a se, quia dicitur tertio huius quod
+          <lb ed="#L"/>intellectus patitur ab intelligibili sicut sensus
+          <lb ed="#L"/>a sensibili illorum.
+        </p>
+        <p>
+          Tertio arguitur: Illud quod
+          <lb ed="#L"/>non est sensibile, non est intelligibile,
+          <lb ed="#L"/>sed intellectus non est sensibilis, igitur
+          <lb ed="#L"/>consequentia <unclear>sequitur</unclear>, et maior patet pro tanto, quia dicitur
+          <lb ed="#L"/>tertio huius quod <unclear>oportet</unclear> quandocumque intelligen
+          <lb ed="#L" break="no"/>tem fantasmata speculari. Item
+          <lb ed="#L"/>primo <title ref="#Arist.APo">Posteriorum</title> dicitur quod deficiente
+          <lb ed="#L"/>nobis aliquo sensu etiam deficit nobis
+          <lb ed="#L"/>scientiam illius sensus. Item in eodem primo
+          <lb ed="#L"/><title ref="Arist.APo">Posteriorum</title> circa principium dicitur quod <unclear>o?</unclear>
+          <lb ed="#L"/>notitia? intellectiva dependet ex prae
+          <lb ed="#L" break="no"/>existenti cognitione sensitiva, ex quibus
+          <lb ed="#L"/>patet maior satis probata. Sed minor patet
+          <lb ed="#L"/>quia intellectus est individualis et in
+          <lb ed="#L" break="no"/>extensus ut supponitur ad praesens? modo
+          <lb ed="#L"/>sensus, cum sit divisibilis et virtus cor
+          <lb ed="#L" break="no"/>poraliter extensa, non potest sentire
+          <lb ed="#L"/>neque nisi divisibilia et extensa
+          <lb ed="#L"/>seu divisibiliter et extense, igitur et cetera.
+        </p>
+        <p>
+          <lb ed="#L"/>Quarto sic arguitur: Nam si intellectus
+          <lb ed="#L"/>posset se ipsum intelligere, sequeretur
+          <lb ed="#L"/>quod semper intelligeret se. Consequens est falsum,
+          <lb ed="#L"/>quia in somno perfectio intellectus
+          <lb ed="#L"/>nihil intelligit, et sic nec se nec
+          <lb ed="#L"/>aliquod aliud, et cetera. Et consequentia tamen patet,
+          <lb ed="#L"/>quia per hoc res intelligitur quod ipsa
+          <lb ed="#L"/>intellectum repraesentat, et modo intel
+          <lb ed="#L" break="no"/>lectus semper est sibi ipsi sufficienter praesens
+          <lb ed="#L"/>et praesentatus, eo dato quod intel
+          <lb ed="#L" break="no"/>ligat se ipsum sequitur quod semper in
+          <lb ed="#L" break="no"/>telligit se quod est probandum, igitur et cetera.
+        </p>
+        <p>
+          <lb ed="#L"/>Quinto sic arguitur: Nam si intellectus in
+          <lb ed="#L" break="no"/>telligeret se ipsum vel intelligeret
+          <lb ed="#L"/>seipsum immediate, sic sequitur? quod non per
+          <lb ed="#L"/>aliud cognitum, scilicet per intellectum, nihil
+          <lb ed="#L"/>intelliget seipsum mediante. Sed per aliquod posterius
+          <lb ed="#L"/>cognitum? vel intellectum? non potest
+          <lb ed="#L"/>dici primum, quia hoc est contra determinationem
+          <lb ed="#L"/><name ref="#Aristotle">Aristotelis</name> tertio huius, ubi videtur
+          <cb n="b"/>
+          <lb ed="#L"/>ponere quod intellectus priusquam alia
+          <lb ed="#L"/>intellexerit, tunc primo potest se ipsum in
+          <lb ed="#L" break="no"/>telligere et cetera. Nec potest dici secundum quid
+          <lb ed="#L"/>illa alia non videntur posse assignari
+          <lb ed="#L"/>per quorum cognitionem intellectus deveniret
+          <lb ed="#L"/>in cognitionem sui. Item tunc pefetur?
+          <lb ed="#L"/>de uno? per quid intellectus ex aliorum
+          <lb ed="#L"/>cognitione deveniret in cogntionem sui,
+          <lb ed="#L"/>et hoc non videtur faciliter posse dici,
+          <lb ed="#L"/>igitur et cetera. 
+        </p>
+        <p>
+          Sexto sic arguitur: Nam si intellectus
+          <lb ed="#L"/>intelligeret vel posset intelligere se
+          <lb ed="#L"/>ipsum, vel hoc esset directe, scilicet sive aliquod
+          <lb ed="#L"/>prius? intellectio sive cognitio, et hoc non
+          <lb ed="#L"/>potest dici, ut iam probatum est, vel hoc
+          <lb ed="#L"/>esset indirecte, scilicet per reflexionem super
+          <lb ed="#L"/>se vel super suam operationem prout ali
+          <lb ed="#L" break="no"/>qui imaginavitur? sed hoc iterum non
+          <lb ed="#L"/>potest dici, quia reflecti non videtur,
+          <lb ed="#L"/>nisi illud quod est corporeum et corporaliter
+          <lb ed="#L"/>extensum. Modo non est ita de intel
+          <lb ed="#L" break="no"/>lectu. Modo ipse est indivisibilis et inex
+          <lb ed="#L" break="no"/>tensus ex prius dictis, igitur et cetera. Oppositum huius
+          <lb ed="#L"/>arguitur per <name ref="#Aristotle">Aristotelem</name> tertio huius. Item
+          <lb ed="#L"/>nos habemus scientiam de intellectu, ergo
+          <lb ed="#L"/>sequitur quod intellectum cognoscimus et scimus
+          <lb ed="#L"/>et per consequens ipsum intelligimus. Item intellectus potest in se formare <note>Notice the meta-marks! What is going on?</note>
+          <lb ed="#L"/>conceptum communem a quo sumitur hoc nomen?
+          <lb ed="#L"/>entis?, et similiter conceptum communem a quo
+          <lb ed="#L"/>sumitur hoc nomen substantia?, quo dato in
+          <lb ed="#L" break="no"/>tellectus omne ens intelligit vel
+          <lb ed="#L"/>omnem substantiam et per consequens igitur se ipsum.
+        </p>
+        <p>
+          <lb ed="#L"/>In ista questione erunt duo articuli. In
+          <lb ed="#L"/>primo praemittuntur notabilia, in secunda po
+          <lb ed="#L" break="no"/>nuntur conclusiones et deinde rationes
+          <lb ed="#L"/>solventur. 
+        </p>
+        <div>
+        <head><supplied>Articulus 1</supplied></head>
+        <p>
+          Quantum ad primum est sciendum
+          <lb ed="#L"/>quod duplex est intellectus, nam quidem
+          <lb ed="#L"/>est intellectus divinus et increatus et
+          <lb ed="#L"/>alius, scilicet intellectus humanus et creatus.
+          <lb ed="#L"/>Et isti dicunt[+tur?] in modo intelligendi,
+          <lb ed="#L"/>nam intellectus divinus intelligit per
+          <lb ed="#L"/>suam essentiam formaliter sine
+          <pb n="223v"/><cb n="a"/>
+          <lb ed="#L"/>indigentia alicuius alterius repraesentativi,
+          <lb ed="#L"/>sed intellectus humanus non intelligit
+          <lb ed="#L"/>per suam essentiam formaliter, immo requiret
+          <lb ed="#L"/>aliud repraesentativum superadditum sibi
+          <lb ed="#L"/>et cetera. Item intellectus humanus non potest
+          <lb ed="#L"/>intelligere sine ministerio sensus, quia,
+          <lb ed="#L"/>quod est allegatum prius, oportet quodcumque in
+          <lb ed="#L" break="no"/>telligenten fanthasmata speculari,
+          <lb ed="#L"/>sed intellectus divinus intelligit sine
+          <lb ed="#L"/>ministerio sensus, igitur patet dicta.
+        </p>
+        <p>
+          Secundo scien
+          <lb ed="#L" break="no"/>dum est quod duplex est intellectio, nam quaedam
+          <lb ed="#L"/>est directa, et huiusmodi intellectione in
+          <lb ed="#L" break="no"/>telligit intellectus illa quae sibi im
+          <lb ed="#L" break="no"/>mediate repraesentantur a sensu, sicut sunt
+          <lb ed="#L"/>sensibilia. Alia vero est intellectio
+          <lb ed="#L"/>indirecta, et huiusmodi intellectione in
+          <lb ed="#L" break="no"/>tellectus intelligit illa quae cognoscit
+          <lb ed="#L"/>et intelligit discursive seu per dis
+          <lb ed="#L" break="no"/>cursum, et hoc modo intelligit substantias se
+          <lb ed="#L" break="no"/>paratas, puta Deum et intelligen
+          <lb ed="#L" break="no"/>tias, unde huiusmodi res intelligit
+          <lb ed="#L"/>per discursum, scilicet deveniendo ex aliorum
+          <lb ed="#L"/>cognitione in cogntione[+m] huiusmodi substantiarum se
+          <lb ed="#L" break="no"/>paratarum, igitur et cetera. Et haec de articulo primo.
+        </p>
+        </div>
+        <div>
+        <head><supplied>Articulus 2</supplied></head>
+        <p>
+          <lb ed="#L"/>Quantum ad secundum articulum po
+          <lb ed="#L" break="no"/>nunter conclusiones, et prima est haec: Respon
+          <lb ed="#L" break="no"/>sive intellectus humanus intelligibilis
+          <lb ed="#L"/>et potest se ipsum intelligere. Ista conclusio
+          <lb ed="#L"/>patet per auctoritatem allegatam post oppositum
+          <lb ed="#L"/>et per rationes ibidem adductas. 
+        </p>
+        <p>
+          Secunda conclusio
+          <lb ed="#L"/>est haec: Intellectus humanus non intelligit
+          <lb ed="#L"/>se per suam essentiam formaliter. Patet ex primo
+          <lb ed="#L"/>notabili articuli praecedentis, quia per hoc disting
+          <lb ed="#L" break="no"/>uitur intellectus humanus ab intellectu
+          <lb ed="#L"/>divino, scilicet quia intellectus divinus intelligit
+          <lb ed="#L"/>per suam essentiam formaliter, sed intellectus huma
+          <lb ed="#L" break="no"/>nus non immo ad intelligendum requirit
+          <lb ed="#L"/>aliquod repraesentativum superadditum et ceterea. Item
+          <lb ed="#L"/>si intellectus humanus intelligeret se
+          <lb ed="#L"/>ipsum per suam essentiam formaliter, sequeretur
+          <lb ed="#L"/>quod semper intelligeret se ipsum. Consequens falsum, et
+          <lb ed="#L"/>patet consequentia quia propter hoc dicimus quod in-
+          <cb n="b"/>
+          <lb ed="#L"/>tellectus divinus semper intelligit, scilicet quia
+          <lb ed="#L"/>intelligit se ipsum per suam essentiam
+          <lb ed="#L"/>formaliter et cetera. Entia? denominantur? in conclusione
+          <lb ed="#L"/>per suam essentiam formaliter, quia non est dubium
+          <lb ed="#L"/>quin intellectus humanus aliquo modo
+          <lb ed="#L"/>intelligit se ipsum per suam essentiam,
+          <lb ed="#L"/>sed per suam essentiam et per suam substantiam passivam,
+          <lb ed="#L"/>quia intellectus humanus per suam essentiam
+          <lb ed="#L"/>et substantiam sit substantialiter? intellectionis, et
+          <lb ed="#L"/>ergo? intelligit per suam essentiam et
+          <lb ed="#L"/>substantiam active, quia ad formandum
+          <lb ed="#L"/>intellectionem ipse intellectus secundum
+          <lb ed="#L"/>eius essentiam et substantiam active cono(r)ti??
+          <lb ed="#L"/>et cetera. Sed dictum est quod intellectus humanus
+          <lb ed="#L"/>non intelligit per suam essentiam formaliter
+          <lb ed="#L"/>sic quod praeter se ipsum et eius essen
+          <lb ed="#L" break="no"/>tiam non requirit vel requiret
+          <lb ed="#L"/>aliud repraesentativum superadditum.
+          <lb ed="#L"/>Unde isto modo intellectus humanus non in
+          <lb ed="#L" break="no"/>telligit se per suam essentiam formaliter.
+        </p>
+        <p>
+          <lb ed="#L"/>Tertia conclusio est haec: Intellectus humanus
+          <lb ed="#L"/>non intelligit se primo et immediate, immo
+          <lb ed="#L"/>non potest se intelligere nisi per aliud
+          <lb ed="#L"/>prius intellectum. Ista conclusio probatur
+          <lb ed="#L"/>quia intellectus humanus ad intel
+          <lb ed="#L" break="no"/>ligendum indiget ministerio sensus sic
+          <lb ed="#L"/>quod actuetur et moveatur ab actu
+          <lb ed="#L"/>sentiendi, et hoc per sensum exteriore
+          <lb ed="#L"/>et interiore, et per consequens sequitur quod
+          <lb ed="#L"/>ad hoc quod intellectus humanus in
+          <lb ed="#L" break="no"/>telligat, oportet quod sibi fiat repraesen
+          <lb ed="#L" break="no"/>tateo [=repaesentatio?] a sensu, et illa quae sibi a
+          <lb ed="#L"/>sensu repraesentantur prius intelligit ante
+          <lb ed="#L" break="no"/>quam deveniant in cognitionem aliorum
+          <lb ed="#L"/>non cadentium sub sensu, cuiusmodi est
+          <lb ed="#L"/>ipsemet intellectus, igitur et cetera.
+        </p>
+        <p>
+          <lb ed="#L"/>Item intellectus dicitur primo illa et im
+          <lb ed="#L" break="no"/>mediate intelligere quae intelligit di
+          <lb ed="#L" break="no"/>recta repraesentatione sensus et immediate
+          <lb ed="#L"/>per sensum, sed ita intellectus non in
+          <lb ed="#L" break="no"/>telligit se ipsum, cum ipse non est sensibilis, et
+          <pb n="224r"/><cb n="a"/>
+          <lb ed="#L"/>quarta conclusio est haec: Intellectus humanus
+          <lb ed="#L"/>potest se ipsum intelligere intellectione
+          <lb ed="#L"/>quae est communis sibi et aliis rebus.
+          <lb ed="#L"/>Ista conclusio probatur quia intellectus potest
+          <lb ed="#L"/>in se formare conceptum communem, a quo
+          <lb ed="#L"/>sumitur hoc nomen substantia. Quo dato in
+          <lb ed="#L" break="no"/>tellectus intelligit se ipsum intel
+          <lb ed="#L" break="no"/>lectione quae est communis sibi et aliis, quia
+          <lb ed="#L"/>intelligit se per conceptum huius termini?
+          <lb ed="#L"/>substantia? qui? [=quae?] est communis sibi et aliis, igitur et cetera.
+        </p>
+        <p>
+          <lb ed="#L"/>Quinta conclusio est haec: Intellectus humanus
+          <lb ed="#L"/>potest seipsum intelligere intellectione
+          <lb ed="#L"/>propria sibi, scilicet quae supponit praecise pro ipso
+          <lb ed="#L"/>intellectum et non per aliud. Probatur quia
+          <lb ed="#L"/>intellectus humanus potest in se habere et
+          <lb ed="#L"/>formare conceptum huius termini anima?,
+          <lb ed="#L"/>quia aliquas prius imponitur nunquam in
+          <lb ed="#L"/>posuisset illum? terminum anima, nisi habuisset
+          <lb ed="#L"/>eius conceptum, et potest etiam? in se habere
+          <lb ed="#L"/>et formare conceptum huius termini rationali.
+          <lb ed="#L"/>Et ex ill[is?] duobus conceptibus potest
+          <lb ed="#L"/>facere unam conplexionem, et illum conceptum
+          <lb ed="#L"/>complexum, quo dato per huiusmodi conceptum
+          <lb ed="#L"/>complexum intelligit se intellectione pro
+          <lb ed="#L"/>prima sibi, et hoc secundum modum prius
+          <lb ed="#L"/>tactum, quia illae conceptus, scilicet anima rationalis,
+          <lb ed="#L"/>supponit praecise pro ipso intellectu et non
+          <lb ed="#L"/>pro alio, igitur et cetera.
+        </p>
+        <p>
+          Sexta conclusio: Intellectus
+          <lb ed="#L"/>non potest se intelligere in
+          <lb ed="#L" break="no"/>tellectione sibi propria, nisi discursive
+          <lb ed="#L"/>sive reflexive, scilicet reflectandi
+          <lb ed="#L"/>supra se et suam propriam operationem.
+          <lb ed="#L"/>Ista conclusio patet quod intellectus
+          <lb ed="#L"/>potest se intelligere <unclear reason="rasura" extent="2" unit="chars" /> intellectione
+          <lb ed="#L"/>propria sibi, patet propterea? dicentem? conclusionem,
+          <lb ed="#L"/>sed quod hoc non potest esse, nisi dis
+          <lb ed="#L" break="no"/>cursive, patet quia quando intelligimus universaliter
+          <cb n="b"/>
+          <lb ed="#L"/>et scimus conclusiones universales, percepimus quod
+          <lb ed="#L"/>in nos est potentia cognoscitiva universali, et hoc
+          <lb ed="#L"/>in nos facit intellectus reflectandi
+          <lb ed="#L"/>supra se aut suam operationem, et hoc in
+          <lb ed="#L" break="no"/>tellectus format in se huiusmodi conceptum,
+          <lb ed="#L"/>sed potentia cognoscitiva 
+          <!-- 
+          <metamark function="transposition" target="#tr1" /><seg xml:id="tr1">in homine</seg> <metamark function="transposition" target="#tr2"/><seg xml:id="tr2">universaliter</seg>
+          <listTranspose>
+            <transpose>
+              <ptr target="#tr2"/>
+              <ptr target="#tr1"/>
+            </transpose>
+          </listTranspose>
+          -->
+          et
+          <lb ed="#L"/>per istum conceptum intelligit se intel
+          <lb ed="#L" break="no"/>lectione propria sibi, sed hoc est discursive
+          <lb ed="#L"/>et cetera.
+        </p>
+        <p>
+          Item intellectus deveniret in cogni
+          <lb ed="#L" break="no"/>tionem sui per istum modum quod [del?] quia experi
+          <lb ed="#L" break="no"/>mur? in nobis aliquas esse operationes quas
+          <lb ed="#L"/>indicamus et iudicamus non posse perveni
+          <lb ed="#L" break="no"/>re, nisi ab ipso intellectu, et [+per?] hoc intel
+          <lb ed="#L" break="no"/>lectus intelligit se et devenit in cognitionem
+          <lb ed="#L"/>sui, sed hoc est discursive et reflexive,
+          <lb ed="#L"/>scilicet reflectando se super se aut suam
+          <lb ed="#L"/>operationem et cetera. Et quod intellectus humanus, cum non
+          <lb ed="#L"/>intelligit se per alium modum, patet sic
+          <lb ed="#L"/>quia sicut se quare et quod intelligeret se
+          <lb ed="#L"/>primo et immediate, quod est contra tertiam conclusionem
+          <lb ed="#L"/>et eius probationem. Ex dictis sequitur cor
+          <lb ed="#L" break="no"/>relatione quod intellectus humanus non in
+          <lb ed="#L" break="no"/>telligit directa repraesentatione sensus
+          <lb ed="#L"/>seu immediate per sensum. Patet quia si sic,
+          <lb ed="#L"/>tunc intellectione intelligeret se primo
+          <lb ed="#L"/>et immediate, quod est contra dicta. Item,
+          <lb ed="#L"/>isto modo intellectus humanus non intelligit,
+          <lb ed="#L"/>nisi sensibilia et fantasiabilia[?!],
+          <lb ed="#L"/>modo intellectus non est sensibilis, igitur et cetera.
+          <lb ed="#L"/>Secundo patet sic quod intellectus intelligit
+          <lb ed="#L"/>se intellectione inductam [=inducta?], scilicet discursive
+          <lb ed="#L"/>et reflexive secundum modum prius dictum,
+          <lb ed="#L"/>quia intellectus humanus intelligit per
+          <lb ed="#L"/>primam conclusionem et non intelligit
+          <lb ed="#L"/>se directa intellectione, quod patet per
+          <lb ed="#L"/>correlarium praecedens. Ergo sequitur
+          <lb ed="#L"/>quod intelligit se intellectione indi
+          <lb ed="#L" break="no"/>recta, igitur et cetera. 
+        </p>
+        <p>
+          Et tunc ad rationes.
+        </p>
+        <p>
+          Ad
+          <lb ed="#L"/>primam cum arguitur sicud se habent sensus ad se,
+          <lb ed="#L"/>similia et cetera. Respondetur negando? istam et hoc.
+          <lb ed="#L"/>Si hoc? sicut causatur? discursive prout notat
+          <lb ed="#L"/>omni modam? simili neque, unde non est omni
+          <pb n="224v"/><cb n="a"/>
+          <lb ed="#L"/>simile de sensu et intellectu, quia sensus est
+          <lb ed="#L"/>virtus organica et corporaliter extensa,
+          <lb ed="#L"/>et non potest in se recipere senseum? intelli
+          <lb ed="#L" break="no"/>gibilem nec actum se intelligendi, nisi per de
+          <lb ed="#L" break="no"/>terminatum organum corporeum. Sed non est
+          <lb ed="#L"/>ita de intellectu, et ideo sensus non potest
+          <lb ed="#L"/>reflecti super se nec super  suam operationem,
+          <lb ed="#L"/>et hoc est verum loquendo de sensu exteriori
+          <lb ed="#L"/>sed non est ita de intellectu, quia ipse non est
+          <lb ed="#L"/>virtus organica nec utitur determinato or
+          <lb ed="#L" break="no"/>gano corporeo, et ideo unde potest reflec
+          <lb ed="#L" break="no"/>ti super se et super suam operationem, scilicet cognos
+          <lb ed="#L" break="no"/>scendo se et suam operaceom [=operationem].
+        </p>
+        <p>
+          Ad
+          <lb ed="#L"/>aliam, cum arguitur sic sequeretur quod idem ageret
+          <lb ed="#L"/>in seipsum et pateretur a se ipso, respondetur quod ()n?
+          <lb ed="#L"/>est inconveniens quod idem aliter et aliter dis
+          <lb ed="#L" break="no"/>positum vel secundum aliam et aliam eius rationem
+          <lb ed="#L"/>agat in seipsum et patiatur a se ipso, et
+          <lb ed="#L"/>ita est de ipso intellectu. Nam ipse dicitur
+          <lb ed="#L"/>pati a se ipso inquantum recipit in se
+          <lb ed="#L"/>subiective eius cognitioni. Sed dicitur agere in
+          <lb ed="#L"/>se ipsum inquantum huiusmodi cognitioni ef
+          <lb ed="#L" break="no"/>fective in se producit, et cetera.
+        </p>
+        <p>
+          Ad auctoritates
+          <lb ed="#L"/>quae videntur cum in m()? sonare dicitur quod ex
+          <lb ed="#L"/>illis auctoritatibus nihil aliud habere, nisi
+          <lb ed="#L"/>quod numquam idem agit in se ipsum et patitur
+          <lb ed="#L"/>a seipso sic quod sit idem corporale agens et
+          <lb ed="#L"/>corporale passum? et cetera.
+        </p>
+        <p>
+          Ad omnem em()? actionem?
+          <lb ed="#L"/>opportet aliquod concurrere()? active, ita quod non pas
+          <lb ed="#L" break="no"/>sive, et hoc est ipsa? prima causa et aliquid passive
+          <lb ed="#L"/>ita quod non active cuiusmodi est materia prima.
+        </p>
+        <p>
+          <lb ed="#L"/>Ad aliam rationem, cum arguitur illud quod non est sensi
+          <lb ed="#L" break="no"/>bile et cetera, dicitur quod verum est quod non est intelli
+          <lb ed="#L" break="no"/>gibile directa repraesentatione sensus seu im
+          <lb ed="#L" break="no"/>mediate per sensum, sed tamen est sine intelligibili
+          <lb ed="#L"/>indirecta repraesenatione discursive reflex
+          <lb ed="#L" break="no"/>ive seu arguitive? prout super eius est
+          <lb ed="#L"/>tactum.
+        </p>
+        <p>
+          Ad aliam cum arguitur nam
+          <lb ed="#L"/>sicut sequeretur quod intellectus semper intelligit,
+          <lb ed="#L"/>sequeretur quoniam? et quando arguitur quia in
+          <lb ed="#L" break="no"/>tellectus semper est sibi sufficienter praesens, respondetur
+          <lb ed="#L"/>quod verum est, sed huiusmodi potentia? non sufficit
+          <lb ed="#L"/>ad hoc quod intellectus intelligat se, quia
+          <lb ed="#L"/>ad hoc quod intellectus intelligat indiget
+          <lb ed="#L"/>ministerio sensus et oporetet quod moveatur a sensu
+          <cb n="b"/>
+          <lb ed="#L"/>et cetera. Intellectus primo et immediate intelligit illa
+          <lb ed="#L"/>quae cadunt sub sensu, et deinde ex
+          <lb ed="#L"/>illorum cognitione devenit in cognitionem
+          <lb ed="#L"/>aliorum non cadentium sub sensum. Id
+          <lb ed="#L"/>est ipsemet sensus. Res etiam? sunt substantiae
+          <lb ed="#L"/>separatae, et hoc patet quod, licet intellectus
+          <lb ed="#L"/>semper est sibi ipsi sufficienter praesens, hoc
+          <lb ed="#L"/>autem? non sifficit ad hoc quod semper intelli
+          <lb ed="#L" break="no"/>gat se, quia non potest se intelligere
+          <lb ed="#L"/>nisi per alia prius intellecta sive
+          <lb ed="#L"/>cognoscita, scilicet quae cadunt sub sensu.
+        </p>
+        <p>
+          Ad aliam,
+          <lb ed="#L"/>cum arguitur nam si intellectus intelligeret
+          <lb ed="#L"/>se vel immediate vel mediate, dicitur quod in
+          <lb ed="#L" break="no"/>tellectus non intelligit se immediate, sed
+          <lb ed="#L"/>mediate, scilicet per aliud praesens intellectum sive
+          <lb ed="#L"/>cognoscitum, et cum arguitur illud aliud non videtur
+          <lb ed="#L"/>posse assignari ex huiusmodi cognitione, in
+          <lb ed="#L" break="no"/>tellectus deveniret in cognitionem sui<note>I think: Either the expression â€œintellectus deveniret in cognitionem suiâ€ should go out, or I should ad an â€œutâ€ before it.</note>, negatur?.
+          <lb ed="#L"/>Communiter? immo dicitur quod intellectus devenit
+          <lb ed="#L"/>in cognitionem sui ex cognitione aliorum, scilicet
+          <lb ed="#L"/>opera omni in nobis apparationi in
+          <lb ed="#L"/>nobis apparentium. Immo dicitur quod in
+          <lb ed="#L" break="no"/>tellectus ex cuiuslibet rei cogitare?
+          <lb ed="#L"/>potest devenire in cognitionem sui, et cum
+          <lb ed="#L"/>arguitur, tunc opporteret dicere modum per quod
+          <lb ed="#L"/>intellectus ex aliorum cognitione de
+          <lb ed="#L" break="no"/>veniret in cognitionem sui ?rumur? quod
+          <lb ed="#L"/>ille modus onosus? est super eius, unde
+          <lb ed="#L"/>intellectus ex aliorum cognitione deve
+          <lb ed="#L" break="no"/>niet in cognitionem sui reflexive et dis
+          <lb ed="#L" break="no"/>cursive seu arguitive?.
+        </p>
+        <p>
+          Ad aliam cum
+          <lb ed="#L"/>arguitur sicut vel intellectus intelliget
+          <lb ed="#L"/>se directe vel indirecte, scilicet reflecten
+          <lb ed="#L" break="no"/>do super se et suam operationem, dicitur quod in
+          <lb ed="#L" break="no"/>telligit se indirecte et reflectendo
+          <lb ed="#L"/>super se et cetera.
+        </p>
+        <p>
+          Ad improbationem? cum arguitur quia re
+          <lb ed="#L" break="no"/>flecti videtur illud quod est corporeum? et ex
+          <lb ed="#L" break="no"/>tensum corporaliter, respondetur quod hoc est verum
+          <lb ed="#L"/>loquendo proprie de reflecti. Sed ita non
+          <lb ed="#L"/>causatur in proposito, sed potius improprie, sed
+          <lb ed="#L"/>quando intellectus dicitur reflecti super se
+          <lb ed="#L"/>et suam operationem, quando ex aliorum cognitione revertitur
+          <lb ed="#L"/>et redicutur ad
+          <pb n="225r"/><cb n="a"/>
+          <lb ed="#L"/>ad [del] cognoscendum se et suam operationem. Illorum
+          <lb ed="#L"/>auctoritas post oppositum est pro dictis et cetera.
+        </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
+
